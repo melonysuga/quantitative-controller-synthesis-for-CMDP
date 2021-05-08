@@ -1,0 +1,248 @@
+mdp convert to pruned one successfully
+The number of states in the explicit MDP in Storm: 80
+transitions number:250
+runtime(s) of computing MRP by pruned flattened mdp: 0.0053982779602026367
+
+pruned convert to quotient successfully
+The number of states in the explicit MDP in Storm: 37
+transitions number:160
+runtime(s) of computing MRP by quotient flattened mdp: 0.0017228126525878906
+
+
+-----MRRP for state: ((695, 19))-----
+by pruned construction: 0.9400000000000001
+by quotient construction: 0.9400000000000001
+-----MRRP for state: ((643, 18))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((644, 18))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((645, 18))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((748, 20))-----
+by pruned construction: 0.8884000000000001
+by quotient construction: 0.8884000000000001
+-----MRRP for state: ((694, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((696, 19))-----
+by pruned construction: 0.039999999999999994
+by quotient construction: 0.039999999999999994
+-----MRRP for state: ((646, 18))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((507, 20))-----
+by pruned construction: 0.8884000000000001
+by quotient construction: 0.8884000000000001
+-----MRRP for state: ((462, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((508, 19))-----
+by pruned construction: 0.9400000000000001
+by quotient construction: 0.9400000000000001
+-----MRRP for state: ((553, 19))-----
+by pruned construction: 0.039999999999999994
+by quotient construction: 0.039999999999999994
+-----MRRP for state: ((506, 18))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((554, 18))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((601, 18))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((505, 18))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((645, 19))-----
+by pruned construction: 0.9400000000000001
+by quotient construction: 0.9400000000000001
+-----MRRP for state: ((595, 18))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((596, 18))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((597, 18))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((599, 20))-----
+by pruned construction: 0.07359999999999998
+by quotient construction: 0.07359999999999998
+-----MRRP for state: ((551, 19))-----
+by pruned construction: 0.9400000000000001
+by quotient construction: 0.9400000000000001
+-----MRRP for state: ((552, 19))-----
+by pruned construction: 0.039999999999999994
+by quotient construction: 0.039999999999999994
+-----MRRP for state: ((602, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((598, 19))-----
+by pruned construction: 0.039999999999999994
+by quotient construction: 0.039999999999999994
+-----MRRP for state: ((647, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((550, 18))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((551, 18))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((598, 18))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((552, 18))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((554, 20))-----
+by pruned construction: 0.994
+by quotient construction: 0.994
+-----MRRP for state: ((604, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((506, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((697, 20))-----
+by pruned construction: 0.07359999999999998
+by quotient construction: 0.07359999999999998
+-----MRRP for state: ((646, 19))-----
+by pruned construction: 0.039999999999999994
+by quotient construction: 0.039999999999999994
+-----MRRP for state: ((696, 18))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((749, 20))-----
+by pruned construction: 0.07359999999999998
+by quotient construction: 0.07359999999999998
+-----MRRP for state: ((697, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((600, 20))-----
+by pruned construction: 0.0015999999999999994
+by quotient construction: 0.0015999999999999994
+-----MRRP for state: ((651, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((599, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((648, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((647, 20))-----
+by pruned construction: 0.0736
+by quotient construction: 0.0736
+-----MRRP for state: ((597, 19))-----
+by pruned construction: 0.9400000000000001
+by quotient construction: 0.9400000000000001
+-----MRRP for state: ((549, 18))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((648, 20))-----
+by pruned construction: 0.0015999999999999994
+by quotient construction: 0.0015999999999999994
+-----MRRP for state: ((600, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((698, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((551, 20))-----
+by pruned construction: 0.9964000000000001
+by quotient construction: 0.9964000000000001
+-----MRRP for state: ((505, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((554, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((550, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((598, 20))-----
+by pruned construction: 0.8884000000000001
+by quotient construction: 0.8884000000000001
+-----MRRP for state: ((597, 20))-----
+by pruned construction: 0.9964000000000001
+by quotient construction: 0.9964000000000001
+-----MRRP for state: ((549, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((596, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((556, 20))-----
+by pruned construction: 0.07359999999999998
+by quotient construction: 0.07359999999999998
+-----MRRP for state: ((603, 20))-----
+by pruned construction: 0.0015999999999999994
+by quotient construction: 0.0015999999999999994
+-----MRRP for state: ((653, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((602, 20))-----
+by pruned construction: 0.036
+by quotient construction: 0.036
+-----MRRP for state: ((698, 20))-----
+by pruned construction: 0.0015999999999999994
+by quotient construction: 0.0015999999999999994
+-----MRRP for state: ((750, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((553, 20))-----
+by pruned construction: 0.039999999999999994
+by quotient construction: 0.039999999999999994
+-----MRRP for state: ((601, 19))-----
+by pruned construction: 0.0
+by quotient construction: 0.0
+-----MRRP for state: ((552, 20))-----
+by pruned construction: 0.8884000000000001
+by quotient construction: 0.8884000000000001
+-----MRRP for state: ((695, 20))-----
+by pruned construction: 0.9964000000000001
+by quotient construction: 0.9964000000000001
+-----MRRP for state: ((643, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((644, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((646, 20))-----
+by pruned construction: 0.8884000000000001
+by quotient construction: 0.8884000000000001
+-----MRRP for state: ((645, 20))-----
+by pruned construction: 0.9964000000000001
+by quotient construction: 0.9964000000000001
+-----MRRP for state: ((595, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((508, 20))-----
+by pruned construction: 0.9400000000000001
+by quotient construction: 0.9400000000000001
+-----MRRP for state: ((747, 20))-----
+by pruned construction: 0.9964000000000001
+by quotient construction: 0.9964000000000001
+-----MRRP for state: ((693, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((750, 20))-----
+by pruned construction: 0.0015999999999999994
+by quotient construction: 0.0015999999999999994
+-----MRRP for state: ((464, 20))-----
+by pruned construction: 0.9964000000000001
+by quotient construction: 0.9964000000000001
+-----MRRP for state: ((461, 19))-----
+by pruned construction: 1.0
+by quotient construction: 1.0
+-----MRRP for state: ((601, 20))-----
+by pruned construction: 0.003999999999999999
+by quotient construction: 0.003999999999999999
+-----MRRP for state: ((696, 20))-----
+by pruned construction: 0.8884000000000001
+by quotient construction: 0.8884000000000001
