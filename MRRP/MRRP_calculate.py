@@ -26,7 +26,7 @@ def MRRP_by_pruned(mdp, targets, cap, SF, SFR, SFRR):
 
 
     strategy_extract = strategy_extraction.StrategyExtract(pruned_mdp, storm_result)
-    strategy_result = strategy_extract.prob_vector
+    strategy_result = strategy_extract.extractOptAction()
     t2 = time.time()
     print("runtime(s) of computing MRRP by prunning flattened mdp and extracting optimal policy:", t2 - t1)
     return pruned_mdp,storm_result,strategy_result
@@ -45,7 +45,7 @@ def MRRP_by_quotient(pruned_mdp, SFR, SFRR):
 
     # t5 = time.time()
     strategy_extract = strategy_extraction.StrategyExtract(quotient_storm_mdp, quotient_storm_result)
-    strategy_result = strategy_extract.prob_vector
+    strategy_result = strategy_extract.extractOptAction()
     # t6 = time.time()
     # print("runtime(s) of extracting optimal policy:", t6 - t5)
     t2 = time.time()
