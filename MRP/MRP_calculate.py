@@ -72,7 +72,7 @@ def MRP_by_quotient(pruned_mdp, SFR, SFRR):
     quotient_storm_result = stormpy.model_checking(quotient_storm_mdp, prop[0])
 
 
-    strategy_extract = strategy_extraction.StrategyExtract(quotient_storm_mdp, quotient_storm_result)
+    strategy_extract = strategy_extraction.StrategyExtract(quotient_mdp, quotient_storm_result)
     strategy_result = strategy_extract.extractOptAction()
     t2 = time.time()
     print("runtime(s) of computing MRP by quotient flattened mdp and extracting optimal policy:", t2 - t1)
