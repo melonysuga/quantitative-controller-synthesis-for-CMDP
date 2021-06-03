@@ -27,7 +27,7 @@ class StrategyExtract:
                     label = action.label
                     prob = 0
                     for key in action.distr.keys():
-                        if key in self.prob_vector.new_targets:
+                        if key in self.mdp.new_targets:
                             prob += action.distr[key]
                         else:
                             prob += (action.distr[key] * Decimal.from_float(self.prob_vector.at(key)))
