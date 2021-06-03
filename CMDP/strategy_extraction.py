@@ -15,7 +15,10 @@ class StrategyExtract:
     def extractOptAction(self):
         state_policy_map = {}
         for i in self.mdp.states:
-            state = (i[0], i[1])
+            if i != "top" and i != "bot":
+                state = (i[0], i[1])
+            else:
+                state = i
             ind = self.mdp.states.index(state)
             if ind in self.mdp.new_targets:
                 state_policy_map[ind] = ('#', self.prob_vector.at(ind))
@@ -36,3 +39,4 @@ class StrategyExtract:
                         action_label = label
                 state_policy_map[ind] = (action_label, max_pro)
         return state_policy_map
+
