@@ -41,10 +41,10 @@ def MRRP_by_quotient(pruned_mdp, SFR, SFRR):
     print(f"quotient-----The number of states in the explicit MDP in Storm: {quotient_storm_mdp.nr_states}")
     print(f"transitions number:{quotient_storm_mdp.nr_transitions}")
 
-    quotient_storm_result = stormpy.model_checking(quotient_mdp, prop[0])
+    quotient_storm_result = stormpy.model_checking(quotient_storm_mdp, prop[0])
 
     # t5 = time.time()
-    strategy_extract = strategy_extraction.StrategyExtract(quotient_storm_mdp, quotient_storm_result)
+    strategy_extract = strategy_extraction.StrategyExtract(quotient_mdp, quotient_storm_result)
     strategy_result = strategy_extract.extractOptAction()
     # t6 = time.time()
     # print("runtime(s) of extracting optimal policy:", t6 - t5)
