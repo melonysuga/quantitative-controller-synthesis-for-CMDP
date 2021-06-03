@@ -27,7 +27,7 @@ def MRP_by_naive(mdp, targets, cap, SF):
     nstorm_result = stormpy.model_checking(storm_mdp, prop[0])
 
     strategy_extract = strategy_extraction.StrategyExtract(naive_flattened_mdp, nstorm_result)
-    strategy_result = strategy_extract.prob_vector
+    strategy_result = strategy_extract.extractOptAction()
     t2 = time.time()
 
 
@@ -50,7 +50,7 @@ def MRP_by_pruned(mdp, targets, cap, SF, SFR, SFRR):
     storm_result = stormpy.model_checking(pruned_storm_mdp, prop[0])
 
     strategy_extract = strategy_extraction.StrategyExtract(pruned_mdp, storm_result)
-    strategy_result = strategy_extract.prob_vector
+    strategy_result = strategy_extract.extractOptAction()
     t2 = time.time()
     print("runtime(s) of computing MRP by prunning flattened mdp and extracting optimal policy:" , t2 - t1)
 
@@ -73,7 +73,7 @@ def MRP_by_quotient(pruned_mdp, SFR, SFRR):
 
 
     strategy_extract = strategy_extraction.StrategyExtract(quotient_storm_mdp, quotient_storm_result)
-    strategy_result = strategy_extract.prob_vector
+    strategy_result = strategy_extract.extractOptAction()
     t2 = time.time()
     print("runtime(s) of computing MRP by quotient flattened mdp and extracting optimal policy:", t2 - t1)
 
